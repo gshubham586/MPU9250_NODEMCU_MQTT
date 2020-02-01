@@ -24,10 +24,13 @@ It includes firmware which runs on the ESP8266 Wi-Fi SoC and hardware which is b
 4. Go to Tools -> Board (where you’d select your version of Arduino) -> Boards Manager,type and search for the ESP8266 and click Install. You now should be able to use the ESP8266    as an Arduino. Simply select the "NODEMCU 1.0(ESP-12E MODULE)" as your board with Port and you should be ready to code.
 Now, with ESP8266 board installed to Arduino IDE, we can program NodeMCU using Arduino IDE directly.
 #### Required Libraries in Arduino IDE:
-**1.   ESP8266WiFi.h** 
+**1.   ESP8266WiFi.h**
+
 **2. PubSubClient.h** 
  <Open Arduino IDE, Go to Sketch -> Include Library -> Manage Libraries , Type and search for "**PubSubClient**" by **Nick O'Leary** and install it.>
+ 
  **3. Wire.h**
+ 
  **4. MPU9250.h**
  <Go to Sketch -> Include Library -> Manage Libraries , Type and search for "**MPU9250**" by **Brian Taylor** and install it.>
 
