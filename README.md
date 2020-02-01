@@ -46,6 +46,7 @@ Now you have to install paho python client.This code provides a client class whi
 ## Connection of MPU9250 with NodeMCU
 
 Connect pins of **MPU9250** with the pins of **Nodemcu** in the follwing manner:
+
 **SCL** --- **D1**
 
 **SDA** --- **D2**
